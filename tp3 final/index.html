@@ -1,0 +1,164 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Proyecto web final</title>
+</head>
+
+<body>
+  <div class="paper container">
+    <header>
+      <h1 id="inicio">Death Note</h1>
+    </header>
+
+
+
+    <nav class="border fixed">
+      <div class="nav-brand">
+        <h4><a href="#">TP#Web Final [Etapa 3]</a></h4>
+      </div>
+      <div class="collapsible">
+        <input id="collapsible2" type="checkbox" name="collapsible2">
+        <label for="collapsible2">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </label>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="#Intro" class="links">Introducción</a></li>
+            <li><a href="#AG" class="links">Aventura Gráfica</a></li>
+            <li><a href="#Juego" class="links">El juego</a></li>
+            <li><a href="#Nosotros" class="links">Nosotros</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h4>Proyecto de desarrollo de una aventura gráfica y videojuego interactivo, inspirados en el oscuro y fascinante
+      universo de Death Note.</h4>
+
+    <article class="article" id="Intro">
+      <h1 class="article-title">Introducción</h1>
+      <img src="Assets/imagen0 (1).jpg" class=" no-border">
+      <p>Al inicio del proyecto, se nos asignó la consigna de elegir un anime adaptado al formato live action. Optamos
+        por Death Note, una historia cargada de intriga y dilemas morales. Como parte del desarrollo, comenzamos
+        diseñando una aventura gráfica apoyada en un diagrama que detalla los diversos caminos que los usuarios pueden
+        explorar al interactuar con ella. Posteriormente, creamos un videojuego web inspirado en Pac-Man, ambientado en
+        el universo de Death Note, donde el jugador controla a Kira como el protagonista, mientras los Ryuks toman el
+        papel de fantasmas que lo persiguen</p>
+    </article>
+
+    <article class="article" id="AG">
+      <h1 class="article-title">Aventura gráfica</h1>
+      <p>Una aventura gráfica de toma de decisiones es un tipo de videojuego interactivo donde el jugador avanza a
+        través de una historia principalmente mediante elecciones que afectan el desarrollo de la trama. En lugar de
+        interactuar con personajes o explorar entornos, el jugador se enfrenta a una serie de decisiones cruciales que
+        determinan el curso de la narrativa.
+
+        El juego presenta imágenes estáticas acompañadas de texto, y las opciones disponibles para el jugador definen el
+        rumbo de la historia, permitiendo vivir diferentes caminos y finales. La experiencia se centra en la narrativa y
+        en cómo las decisiones del jugador impactan el destino de los personajes o el desenlace de la trama.</p>
+
+      <div class="row">
+        <div class="collapsible">
+          <input id="collapsible1" type="checkbox" name="collapsible">
+          <label for="collapsible1">Desafío</label>
+          <div class="collapsible-body">
+            <span>El reto principal de nuestro proyecto fue crear las imágenes estáticas que acompañan cada toma de
+              decisión. Dado que nuestro juego se centra en una narrativa interactiva, necesitábamos imágenes que
+              reflejaran los momentos clave de la historia. Para ello, usamos inteligencia artificial para generar las
+              imágenes, lo que nos permitió adaptar visualmente los diferentes escenarios y personajes del mundo de
+              Death Note de manera única, sin necesidad de crear todo el contenido manualmente. Este proceso fue
+              desafiante, pero nos permitió mantener la esencia de la serie al mismo tiempo que optimizamos el tiempo de
+              desarrollo.</span>
+          </div>
+        </div>
+        <div class="collapsible">
+          <input id="collapsible4" type="checkbox" name="collapsible">
+          <label for="collapsible4">Diagrama</label>
+          <div class="collapsible-body">
+            <img src="/Assets/Diagrama.png" class="no-border">
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="article" id="Juego">
+      <h1 class="article-title">El juego</h1>
+      <img src="Assets/imagen15.jpg" class=" no-border">
+      <p>Al adentrarnos en la segunda parte del trabajo, se nos proporcionó la descripción de un juego para implementar,
+        basado en la temática de nuestra aventura gráfica. Este juego guardaba una gran similitud con el clásico Pac-Man
+        que conocemos hoy en día, pero con una adaptación propia del universo de Death Note. La idea era mantener la
+        esencia del juego original, pero incorporando elementos de la historia y los personajes para ofrecer una
+        experiencia única.</p>
+
+      <div class="row">
+        <div class="collapsible">
+          <input id="collapsible3" type="checkbox" name="collapsible">
+          <label for="collapsible3">En que consiste?</label>
+          <div class="collapsible-body">
+            <span>El juego se basa en Kira, quien se encuentra atrapado en un laberinto y debe recolectar todos los
+              puntos blancos para poder salir. Sin embargo, ¡tiene que tener mucho cuidado! Solo dispone de 3 intentos
+              para completar la misión, ya que los Ryuks (en lugar de los fantasmas tradicionales) intentarán atraparlo
+              en su camino. Cada vez que es alcanzado, pierde una oportunidad, lo que hace que el desafío sea aún más
+              emocionante.</span>
+          </div>
+          <div class="row flex-spaces child-borders">
+            <label class="paper-btn margin" for="modal-1">Jugar</label>
+          </div>
+          <input class="modal-state" id="modal-1" type="checkbox">
+          <div class="modal">
+            <label class="modal-bg" for="modal-1"></label>
+            <div class="modal-body">
+              <label class="btn-close" for="modal-1">X</label>
+              <iframe src="tpfinalparte2/" frameborder="0" width="680" height="500"></iframe>
+            </div>
+          </div>
+    </article>
+
+    <article class="article" id="Nosotros">
+      <h1 class="article-title">Nosotros</h1>
+      <div class="row" id="cartas">
+        <div class="card" style="width: 20rem;">
+          <img src="Assets/Eli.png" alt="Card example image">
+
+          <div class="card-body">
+            <h4 class="card-title">Eliana Garaventa</h4>
+            <h5 class="card-subtitle">85259/1</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <img src="Assets/Tobi.png" alt="Card example image">
+
+          <div class="card-body">
+            <h4 class="card-title">Tobias Cisneros</h4>
+            <h5 class="card-subtitle">118995/3</h5>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <article class="article" id="Resultados">
+      <h3 class="title">Resultados</h3>
+      <p>Fue una experiencia realmente emocionante trabajar en este proyecto. El desarrollo del juego nos dio la
+        oportunidad de poner a prueba
+        nuestra creatividad y destrezas técnicas; elaborar el diagrama nos permitió organizar nuestras ideas de manera
+        más clara; crear la historia fue
+        un recorrido fascinante al dar vida a nuestros personajes y su entorno; y diseñar la web fue la ocasión ideal
+        para presentar todo nuestro trabajo de forma original.
+        Cada etapa nos brindó aprendizajes valiosos y aumentó nuestra satisfacción con el proceso. ¡Estamos muy
+        satisfechos con el resultado final!</p>
+    </article>
+
+   </div>
+
+    </div>
+  </div>
+</body>
+</html>

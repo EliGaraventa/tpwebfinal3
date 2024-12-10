@@ -1,0 +1,42 @@
+body{
+    background-image: url('Assets/fondo.png');
+    background-attachment: fixed; /* Fija el fondo */
+  background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+  
+}
+.center-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    margin-top: 20px;        /* Opcional: Añade espacio encima del botón */
+}
+
+nav a{
+    border-bottom:none; 
+    
+}
+
+
+.paper{
+    background: none;
+    border-color: #5b5b5b;
+    color: #fcfcfc;
+}
+
+article .article-title{
+   
+    color: #fcfcfc;
+}
+
+.btn-danger{
+    text-align: center;
+}
+#cartas{
+    gap: 77px;
+}
+
+.collapsible>label {
+    color: #fcfcfc;
+}
